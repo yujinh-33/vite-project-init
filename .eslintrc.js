@@ -18,6 +18,12 @@ module.exports = {
   rules: {
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
-    'no-console': 'off'
+    'no-console': 'off',
+    'import/no-mutable-exports': 'off',
+    'import/prefer-default-export': 'off',
+    'no-unused-vars': 'off',
+    'no-param-reassign': 'off',
+    'prettier/prettier': 'off',
+    'vue/comment-directive': 'off'
   }
 }
